@@ -275,7 +275,7 @@ class Regex private[matching](val pattern: Pattern, groupNames: String*) extends
    *    case _            => ""
    *  }
    *  val cGroup = "abbbcc" match {
-   *    case p4(_, c) => c
+   *    case p4(_, c) => c              // "cc"
    *    case _        => ""
    *  }
    *  }}}
